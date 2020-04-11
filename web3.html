@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(15, 94, 77);
+        }
+        .item{
+            border: 2px solid black;
+            text-align: center;
+            padding: 20px;
+            margin: 50px 15px;
+            display: inline-block;
+            position: relative;
+            top: 5px;
+            left: 180px;
+            font-weight: bolder;
+            
+            
+        }
+        .SIGN{
+            border: 2px solid black;
+            display: inline-block;
+            padding: 5px;
+            position: relative;
+            bottom: 250px;
+            left: 500px;
+            width:285px;
+            text-align: center;
+            background-color: darkcyan;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>HOME PAGE</h1>
+    <h2 class="SIGN">SIGN UP NOW</h2>
+    <div class="item">
+        <form action="php3.php" method="POST" >
+            first name: <input type="text" name="fname" placeholder="enter your first name"><br><br>
+            last name: <input type="text" name="lname" placeholder="enter your last name"><br><br>
+            mail id : <input type="text" name="mail" placeholder="enter your mail id"><br><br>
+            moblibe no. : <input type="number" name="mob" placeholder="enter your mobile no."><br><br>
+            date of birth: <input type="date" name="dob" placeholder="dob"><br><br>
+            <input type="submit" name="save">
+    </div>
+
+
+
+
+    </form>
+
+</body>
+
+</html>
