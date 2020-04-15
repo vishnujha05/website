@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .box{
+            font-family: 'Comic Neue', cursive;
+
+        }
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .item {
+            border: 2px solid black;
+            width: 31.33%;
+            margin: 10px;
+            background-color: rgb(150, 144, 144);
+            float: left;
+            font-size: 1.2rem;
+        }
+
+        #menu {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .box_name {
+            border: 2px solid black;
+            width: 100px;
+            height: 25px;
+            float: right;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        #a2 {
+            color: white;
+            background-color: rgb(218, 62, 6);
+            border: 2px solid black !important;
+            font-weight: 75% !important;
+
+        }
+
+        #a1 {
+            background-color: rgb(216, 112, 112);
+        }
+
+        #a3 {
+            background-color: rgb(211, 182, 85);
+            
+        }
+
+        @media (min-width:992px) {
+
+            #item1,
+            #item2,
+            #item3 {
+                float: left;
+                width: 30.3%;
+            }
+
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            #item2 , #item1 {
+                float: left;
+                width: 45%;
+                margin: 0px 10px;
+            }
+
+            #item3 {
+                float: left;
+                width: 92%;
+                margin: 10px 20px;
+
+            }
+        }
+
+        @media screen and (max-width:767px) {
+
+            #item1,
+            #item2,
+            #item3 {
+                float: left;
+                width: 95%;
+                margin: 10px 10px;
+
+            }
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="menu">
+        <h1>Our Menu</h1>
+    </div>
+    <div class="box" >
+        <div class="item" id="item1">
+            <div class="box_name" id="a1">
+                Chiken
+            </div><br><br>
+            <div> A paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</div>
+        </div>
+        <div class="item" id="item2">
+            <div class="box_name" id="a2">
+                Beef
+            </div><br><br>
+            <div> A paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</div>
+        </div>
+        <div class="item" id="item3">
+            <div class="box_name" id="a3">
+                Sushi
+            </div><br><br>
+            <div> A paragraph is a series of related sentences developing a central idea, called the topic. Try to think
+                about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
+                supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
