@@ -1,0 +1,90 @@
+
+        .box{
+            font-family: 'Comic Neue', cursive;
+
+        }
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .item {
+            border: 2px solid black;
+            width: 31.33%;
+            margin: 10px;
+            background-color: rgb(150, 144, 144);
+            float: left;
+            font-size: 1.2rem;
+        }
+
+        #menu {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .box_name {
+            border: 2px solid black;
+            width: 100px;
+            height: 25px;
+            float: right;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        #a2 {
+            color: white;
+            background-color: rgb(218, 62, 6);
+            border: 2px solid black !important;
+            font-weight: 75% !important;
+
+        }
+
+        #a1 {
+            background-color: rgb(216, 112, 112);
+        }
+
+        #a3 {
+            background-color: rgb(211, 182, 85);
+            
+        }
+
+        @media (min-width:992px) {
+
+            #item1,
+            #item2,
+            #item3 {
+                float: left;
+                width: 30.3%;
+            }
+
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            #item2 , #item1 {
+                float: left;
+                width: 45%;
+                margin: 0px 10px;
+            }
+
+            #item3 {
+                float: left;
+                width: 92%;
+                margin: 10px 20px;
+
+            }
+        }
+
+        @media screen and (max-width:767px) {
+
+            #item1,
+            #item2,
+            #item3 {
+                float: left;
+                width: 95%;
+                margin: 10px 10px;
+
+            }
+
+
+        }
+    
