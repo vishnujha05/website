@@ -1,0 +1,11 @@
+.header{
+    background-color: rgb(235, 70, 235);
+}
+.footer{
+    background-color: rgb(243, 160, 243);
+}
+@media screen and (min-width:992px){
+    .flink{
+        padding-top: 25px;
+    }
+}
