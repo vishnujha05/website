@@ -1,106 +1,33 @@
+body{
+    background-color: maroon;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen AND (min-width:500px){
+    .navitem{
+        padding-left: 80px !important;
+    }
+    .num{
+        padding-top: 0px !important;
+    }
+}
+div ul li a{
+    color: maroon !important;
+}
+div ul li a:hover{
+    background-color: mintcream;
+}
+nav a b{
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+@media screen AND (max-width:400px){
 
-        .box{
-            font-family: 'Comic Neue', cursive;
-            box-sizing: border-box;
+}
+li b{
+    font-size: larger;
 
-        }
-        body {
-            padding: 0px;
-            margin: 0px;
-            
-        }
-
-        .item {
-            border: 2px solid black;
-            width: 31.33%;
-            margin: 10px;
-            background-color: rgb(135, 141, 141);
-            float: left;
-            font-size: 1.2rem;
-            box-sizing: border-box;
-            padding: 10px;
-
-        }
-
-        #menu {
-            text-align: center;
-            font-weight: bold;
-        }
-
-        .box_name  {
-            float: righ;
-            font-weight: bolder;
-            text-align: center;
-            font-weight: bold;
-            text-align: center;
-            justify-content: center;
-
-        }
-        
-        nav div a{
-            text-align: center;
-            font-weight: bold;
-            color: thiste;
-            border-bottom: 1px solid;
-            background-color: white;
-            display: none !important;
-        }
-        nav  button{
-            display: none;
-            outline: none !important;
-        }
-        nav button:hover{
-           background-color: white !important;
-        }
-        .btt{
-            display: none;
-        }
-        @media (min-width:992px) {
-
-            #item1,
-            #item2,
-            #item3 {
-                float: left;
-                width: 30.3%;
-            }
-
-        }
-
-        @media (min-width: 768px) and (max-width: 991px) {
-            #item2 , #item1 {
-                float: left;
-                width: 45%;
-                margin: 0px 10px;
-            }
-
-            #item3 {
-                float: left;
-                width: 92%;
-                margin: 10px 20px;
-
-            }
-        }
-
-        @media screen and (max-width:767px) {
-
-            #item1,
-            #item2,
-            #item3 {
-                float: left;
-                width: 95%;
-                margin: 10px 10px;
-
-            }
-            nav  button{
-                display: block;
-            }
-            nav div a {
-                display:block !important ;
-            }
-        }
-        @media screen and (max-height:500px){
-            .btt{
-                display: block;
-            }
-        }
-    
+}

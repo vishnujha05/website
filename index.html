@@ -1,69 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css grid</title>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+
+
+
+    <title>Restaurant</title>
 
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-        <a class="navbar-brand" href="#">Food, LLC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<body class="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning pl-3 navitem">
+        <a class="navbar-brand boder-bottom-2" href="#"><b class="text-success">DAVID CHU'S CHINA BISTRO</b> <br><i
+                class="fa fa-star-half-o" aria-hidden="true"></i>
+            KOSHER CERTIFIED</a>
+        <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#a1">Chiken <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#a2">Beef</a>
-                <a class="nav-item nav-link" href="#a3">Sushi</a>
-            </div>
+        <div class="collapse navbar-collapse pt-5 " id="navbarNav">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item active">
+                    <a class="nav-link text-dangr" href="#"><i class="fa fa-cutlery" aria-hidden="true"></i><br> Menu
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dangr" href="#"><i class="fa fa-info-circle" aria-hidden="true"></i><br>
+                        About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dangr" href="#"><i class="fa  fa-asterisk" aria-hidden="true"></i><br>
+                        Award</a>
+                </li>
+                <li>
+                    <b class="num">
+                    <a href="tel:123-456-7890" class="">123-456-7890</a><p><small>* We Deliver</small></p>
+
+                    </b>
+                </li>
+
+            </ul>
         </div>
     </nav>
-    <div id="menu">
-        <h1>Our Menu</h1>
+    <div class="container">
+        <img src="jumbotron_768.jpg" class="img-fluid w-100 pt-4" alt="Responsive image">
     </div>
-    <div class="box">
-        <div class="item" id="item1">
-            <div class="box_name" id="a1">
-                <h3>Chiken</h3>
-            </div>
-            <div> A paragraph is a series of related sentences developing a central idea, called the topic. Try to think
-                about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
-                supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</div>
-                <div class="btt"><a href="">Back To Top</a></div>
-                
-        </div>
-        <div class="item" id="item2">
-            <div class="box_name" id="a2">
-                <h3> Beef</h3>
-            </div>
-            <div> A paragraph is a series of related sentences developing a central idea, called the topic. Try to think
-                about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
-                supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</div>
-                <div class="btt"><a href="">Back To Top</a></div>
-                
-        </div>
-        <div class="item" id="item3">
-            <div class="box_name" id="a3">
-                <h3>Sushi</h3>
-            </div>
-            <div> A paragraph is a series of related sentences developing a central idea, called the topic. Try to think
-                about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that
-                supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</div>
-                <div class="btt"><a href="">Back To Top</a></div>
+    <div class="container">
+        <div class="row py-4  ">
+            <a href="#" class="col-lg-4 col-xl-4 col-md-4 col-6 pt-4">
+                <img src="1-1.jpg" class="rounded float-left w-100 h-100 size" alt="...">
+            </a>
+            <a href="#" class="col-lg-4 col-xl-4 col-md-4 col-6 pt-4">
+                <img src="special.jpeg" class="rounded float-left w-100 h-100 size" alt="...">
+            </a>
+            <a href="#" class="col-lg-4 col-xl-4 col-md-4 col-12 pt-4 bg-warnin">
+                <img src="1-1.jpg" class="rounded float-left w-100 h-100 size" alt="...">
+            </a>
         </div>
     </div>
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row bg-dark text-light p-5">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 border-bottom ">
+                    <h5>Hours:</h5>
+                    <p>
+                        Sun-Thurs: 11:15am - 10:00pm <br>
+                        Fri: 11:15am - 2:30pm <br>
+                        Saturday Closed
+                    </p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 border-bottom ">
+                    <h5>Address:</h5>
+                    <p>
+                        7105 Reisterstown Road <br>
+                        Baltimore, MD 21215 <br>
+                        <small class="text-success">
+                            * Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all
+                            deliveries.
+                        </small>
+                    </p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 border-bottom">
+                    <p>
+                        "The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"
+                        <br> <br>
 
+                        "Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"
+                    </p>
+                </div>
+                <div class="text-center col-12 pt-5">
+                    <p>&copy; Copyright David Chu's China Bistro 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
